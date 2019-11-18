@@ -1,5 +1,16 @@
 @mixin camion ($color){
     border: none;
     background: $color;
-    font-size: 20px;
+    font-size: 15px;
+}
+@mixin centre{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+@mixin size {
+    width: 600px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
