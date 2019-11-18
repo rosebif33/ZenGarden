@@ -1,3 +1,108 @@
+.page-wrapper, header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 
+body {
+  margin: 0px;
+}
+
+a {
+  color: black;
+  font-family: "Arial";
+}
+
+p {
+  font-family: "Arial";
+}
+
+.summary {
+  border: none;
+  background: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.preamble {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.main, .explanation {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.participation {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.benefits {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.requirements {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+h1 {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  font-family: "Arial";
+  padding: 20px;
+  margin: 0px;
+}
+
+h2, h3 {
+  color: green;
+  font-family: "Arial";
+}
+
+footer {
+  background-color: lightblue;
+  padding: 20px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
 
 /*# sourceMappingURL=style.css.map */

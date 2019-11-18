@@ -1,0 +1,91 @@
+@import "variables.scss";
+@import "mixins.scss";
+@mixin centre{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+@mixin size {
+    width: 600px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.page-wrapper{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+ @extend .page-wrapper ;
+}
+
+
+
+
+body{
+    margin:0px;
+}
+a{
+    color: black;
+    font-family: $typo;
+}
+p{
+    font-family: $typo;
+}
+
+.summary {
+    @include camion (white);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    @include size;
+}
+.preamble {
+    @include centre;
+    @include size;
+}
+
+.main, .explanation{
+ @include centre;
+ @include size;
+}
+.participation{
+    @include centre;
+    @include size;
+}
+.benefits{
+    @include centre;
+    @include size;
+}
+.requirements{
+    @include centre;
+    @include size;
+}
+
+
+
+h1{
+    background-color: $myVariable;
+    display: flex;
+    justify-content: center;
+    font-family: $typo;
+    padding: 20px;
+    margin: 0px; 
+}
+h2,h3{
+    color: $success;
+    font-family: $typo;
+}
+footer{
+    background-color: $myVariable;
+    padding: 20px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+}
